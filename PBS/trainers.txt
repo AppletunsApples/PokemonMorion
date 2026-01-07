@@ -1,0 +1,125 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[POKEMONBREEDER_Cerise,Cerise]
+LoseText = Good luck finding him!
+Pokemon = DROWZEE,10
+    Moves = HEADBUTT,PSYWAVE
+    Ability = INNERFOCUS
+    Gender = male
+    Ball = LOVEBALL
+#-------------------------------
+[RUINMANIAC,Benjamin]
+LoseText = WHAT?!
+Pokemon = ROGGENROLA,12
+    Moves = ROCKTHROW,TACKLE
+    Ability = SANDSTREAM
+    Gender = male
+    Ball = DUSKBALL
+Pokemon = ROGGENROLA,12
+    Moves = ROCKTHROW,ROCKSMASH
+    Ability = SANDSTREAM
+    Gender = male
+    Ball = DUSKBALL
+#-------------------------------
+[CAMPER,Sam]
+LoseText = I wonder why I can't find any.
+Pokemon = MUSHARNA,11
+    Moves = PSYCHOCUT
+    Ability = MAGICGUARD
+    Gender = male
+    Ball = DUSKBALL
+#-------------------------------
+[REGIONMAYOR,Cid]
+LoseText = Maybe I should give Cerise my house keys...
+Pokemon = MANKEY,11
+    Moves = PSYBEAM,ROCKSMASH,COVET
+    Ability = CALCULATED
+    Form = 1
+    Ball = MASTERBALL
+    EV = 0,0,0,252,0,0
+Pokemon = LITWICK,12
+    Moves = FLAMECHARGE,HEX
+    Item = EVIOLITE
+    Ability = FLAMEBODY
+    Shiny  = true
+    Ball = MASTERBALL
+    EV = 0,0,0,252,0,0
+#-------------------------------
+[YOUNGSTER,Moxie]
+LoseText = Please help her.
+Pokemon = MUNNA,14
+    Moves = HYPNOSIS,PSYWAVE,SHOCKWAVE
+    Ability = MAGICGUARD
+    Gender = male
+    Ball = DREAMBALL
+Pokemon = KRICKETOT,13
+    Moves = BUGBITE,RETURN
+    Ability = TECHNICIAN
+    Gender = male
+    Ball = HEALBALL
+#-------------------------------
+[POKEMONBREEDER_M,Alexander]
+LoseText = Hm.
+Pokemon = AUDINO,12
+    Moves = HEADBUTT,DISARMINGVOICE,INCINERATE
+    Ability = HEALER
+    Gender = male
+    Ball = HEALBALL
+#-------------------------------
+[PSYCHIC_F,Lana]
+LoseText = WHAT?!
+Pokemon = MADREAMIE,13
+    Moves = SLEEPPOWDER,DREAMEATER,BUGBITE
+    Ability = INSOMNIA
+    Gender = male
+    Ball = DUSKBALL
+#-------------------------------
+[RUINMANIAC,Manny]
+LoseText = Tell me...
+Pokemon = TIMBURR,12
+    Moves = ROCKTHROW,ROCKSMASH
+    Item = EVIOLITE
+    Ability = IRONFIST
+    Gender = male
+    Ball = DUSKBALL
+Pokemon = MISDREAVUS,13
+    Moves = NIGHTSHADE,PSYBEAM
+    Gender = male
+    Ball = DUSKBALL
+#-------------------------------
+[AROMALADY,Sarah]
+LoseText = Aww, well.
+Pokemon = WHIMSICOTT,11
+    Moves = GUST,STUNSPORE,KNOCKOFF,ABSORB
+    Ability = PRANKSTER
+    Gender = male
+    Ball = NETBALL
+#-------------------------------
+[FISHERMAN,Xander]
+LoseText = NO.
+Pokemon = STARMIE,13
+    Moves = AQUAJET,PSYCHOCUT
+    Ability = NATURALCURE
+    Gender = male
+    Ball = DIVEBALL
+#-------------------------------
+[CORRUPTEDCONDUCTOR,Karrie]
+LoseText =  I'm finally free.
+Pokemon = TYRUNT,13
+    Moves = ROCKTOMB,SPARK,BITE
+    Ability = INTIMIDATE
+    Form = 1
+    Gender = female
+    Ball = DREAMBALL
+Pokemon = GURDURR,12
+    Moves = ROCKTOMB,MACHPUNCH,BRUTALSWING
+    Item = EVIOLITE
+    Ability = GUTS
+    Gender = female
+    Ball = ULTRABALL
+Pokemon = KRICKETUNE,15
+    Moves = BUGBITE,QUICKATTACK,AERIALACE,THIEF
+    Form = 1
+    Ability = PIXILATE
+    Gender = female
+    Ball = DREAMBALL

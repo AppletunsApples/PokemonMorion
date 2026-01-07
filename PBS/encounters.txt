@@ -1,0 +1,60 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[003] # Ascendant Maze
+Land,12
+    35,MUNNA,7,7
+    30,MANKEY_1,8
+    20,DROWZEE,7
+    15,MADREAMIE,9
+Water,20
+    55,LOTAD,12
+    30,LUVDISC,13
+    15,SNUNI,13
+    5,BASCULIN,15
+GoodRod
+    50,LUVDISC,16
+    25,SNUNI,14
+    20,LOTAD,15
+    5,BASCULIN,16
+#-------------------------------
+[006] # Meteorite Mines
+Cave,10
+    40,ROGGENROLA,9
+    30,YAMASK_1,10
+    20,TYRUNT_1,10
+    10,TIMBURR,12
+#-------------------------------
+[010] # Rush Road
+Land,20
+    45,MADREAMIE,12
+    30,DROWZEE,11
+    20,SPINARAK,13
+    5,TIMBURR,14
+#-------------------------------
+[011] # Gnomon Grove
+Land,20
+    45,KRICKETOT_1,13
+    15,SHINX_1,12
+    15,SHIXN_2,12
+    15,SEWADDLE,13
+    10,SPINARAK,14
+#-------------------------------
+[012] # Rush Railway
+Water,20
+    50,LUVDISC,12
+    30,LOMBRE,13
+    15,SNUNI,14
+    10,WINGULL,15
+    5,BASCULIN,15
+GoodRod
+    55,LUVDISC,16
+    25,SNUNI,14
+    15,LOTAD,15
+    5,BASCULIN,16
+#-------------------------------
+[015] # Glyph Guideway
+Land,30
+    50,SNOVER,12
+    20,POOCHYENA_1,11
+    20,AMAURA_1,13
+    10,SEEL,14

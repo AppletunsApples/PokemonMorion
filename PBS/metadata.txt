@@ -1,0 +1,23 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+StartMoney = 5000
+Home = 3,7,5,8
+StorageCreator = ???
+WildBattleBGM = Battle wild
+TrainerBattleBGM = Battle trainer
+WildVictoryBGM = Battle victory wild
+TrainerVictoryBGM = Battle victory trainer
+SurfBGM = Surfing
+BicycleBGM = Bicycle
+#-------------------------------
+[1]
+TrainerType = POKEMONTRAINER_Eos
+WalkCharset = trainer_POKEMONTRAINER_Eos
+RunCharset = girl_run
+CycleCharset = girl_bike
+SurfCharset = girl_surf
+DiveCharset = girl_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = girl_fish_offset
+Home = 3,10,30,8

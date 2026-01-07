@@ -1,0 +1,70 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[001]   # Intro
+Name = Intro
+#-------------------------------
+[003]   # Starlight Maze
+Name = Ascendant Maze
+Outdoor = true
+ShowArea = true
+Bicycle = true
+HealingSpot = 3,10,29
+Weather = Rain,100
+MapPosition = 0,12,10
+SnapEdges = true
+MapSize = 1,2
+BattleBack = forest
+Environment = TallGrass
+#-------------------------------
+[005]   # Twilight Town
+Name = Twilight Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+HealingSpot = 9,7,5
+MapPosition = 0,12,10
+SnapEdges = true
+MapSize = 1,2
+BattleBack = forest
+Environment = Grass
+#-------------------------------
+[006]   # Meteorite Mines
+Name = Meteorite Mines
+ShowArea = true
+Bicycle = true
+HealingSpot = 9,7,5
+MapPosition = 0,12,10
+MapSize = 1,2
+BattleBack = cave2
+Environment = Cave
+#-------------------------------
+[008]   # Mayor's House
+Bicycle = false
+ShowArea = true
+MapPosition = 0,12,10
+#-------------------------------
+[009]   # Twilight Town Poké Center
+ShowArea = true
+Bicycle = false
+MapPosition = 0,12,10
+HealingSpot = 9,7,5
+MapSize = 1,2
+#-------------------------------
+[010]   # Rush Road
+Outdoor = true
+ShowArea = true
+Bicycle = true
+HealingSpot = 9,7,5
+MapPosition = 0,12,10
+MapSize = 1,2
+BattleBack = forest
+Environment = Grass
+#-------------------------------
+[012]   # Rush Railway
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,10
+MapSize = 1,2
+BattleBack = forest
+Environment = Grass

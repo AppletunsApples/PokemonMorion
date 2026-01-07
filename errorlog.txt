@@ -1,0 +1,197 @@
+
+=================
+
+[2025-04-05 14:34:35 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: NoMethodError
+Message: undefined method `delta_s' for Graphics:Module
+
+Backtrace:
+013_Game_Stats.rb:196:in `update'
+001_Transitions.rb:39:in `update'
+002_Scene_Map.rb:236:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+
+=================
+
+[2025-04-05 14:34:50 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: NoMethodError
+Message: undefined method `delta_s' for Graphics:Module
+
+Backtrace:
+013_Game_Stats.rb:196:in `update'
+001_Transitions.rb:39:in `update'
+002_Scene_Map.rb:236:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+
+=================
+
+[2025-04-05 14:35:47 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: NoMethodError
+Message: undefined method `delta_s' for Graphics:Module
+
+Backtrace:
+013_Game_Stats.rb:196:in `update'
+001_Transitions.rb:39:in `update'
+002_Scene_Map.rb:236:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+
+=================
+
+[2025-04-05 14:36:40 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: NoMethodError
+Message: undefined method `delta_s' for Graphics:Module
+
+Backtrace:
+013_Game_Stats.rb:196:in `update'
+001_Transitions.rb:39:in `update'
+002_Scene_Map.rb:236:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+
+=================
+
+[2025-04-05 14:37:51 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: RuntimeError
+Message: Undefined value SHADOWRUSH in GameData::Move
+File PBS/shadow_pokemon.txt, section BUTTERFREE, key Moves
+SHADOWRUSH,SHADOWMIST
+
+
+
+Backtrace:
+001_Compiler.rb:454:in `checkEnumField'
+[v21.1 Hotfixes] Compiler bug fixes.rb:53:in `cast_csv_value'
+001_Compiler.rb:724:in `block (2 levels) in get_csv_record'
+001_Compiler.rb:710:in `each'
+001_Compiler.rb:710:in `block in get_csv_record'
+001_Compiler.rb:708:in `loop'
+001_Compiler.rb:708:in `get_csv_record'
+002_Compiler_CompilePBS.rb:49:in `block (4 levels) in compile_PBS_file_generic'
+002_Compiler_CompilePBS.rb:31:in `each_key'
+002_Compiler_CompilePBS.rb:31:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2025-04-05 14:37:53 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+001_Compiler.rb:1104:in `rescue in main'
+001_Compiler.rb:1031:in `main'
+999_Main.rb:29:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Main:35:in `eval'
+
+=================
+
+[2025-04-05 14:39:13 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: RuntimeError
+Message: Undefined value SHADOWRUSH in GameData::Move
+File PBS/shadow_pokemon.txt, section BUTTERFREE, key Moves
+SHADOWRUSH,SHADOWMIST
+
+
+
+Backtrace:
+001_Compiler.rb:454:in `checkEnumField'
+[v21.1 Hotfixes] Compiler bug fixes.rb:53:in `cast_csv_value'
+001_Compiler.rb:724:in `block (2 levels) in get_csv_record'
+001_Compiler.rb:710:in `each'
+001_Compiler.rb:710:in `block in get_csv_record'
+001_Compiler.rb:708:in `loop'
+001_Compiler.rb:708:in `get_csv_record'
+002_Compiler_CompilePBS.rb:49:in `block (4 levels) in compile_PBS_file_generic'
+002_Compiler_CompilePBS.rb:31:in `each_key'
+002_Compiler_CompilePBS.rb:31:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2025-04-05 14:39:16 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+001_Compiler.rb:1104:in `rescue in main'
+001_Compiler.rb:1031:in `main'
+999_Main.rb:29:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Main:35:in `eval'
+
+=================
+
+[2025-04-05 14:39:50 -0400]
+[Pokémon Essentials version 21.1]
+[v21.1 Hotfixes 1.0.9]
+
+Exception: NoMethodError
+Message: undefined method `delta_s' for Graphics:Module
+
+Backtrace:
+013_Game_Stats.rb:196:in `update'
+001_Transitions.rb:39:in `update'
+002_Scene_Map.rb:236:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'

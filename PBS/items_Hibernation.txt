@@ -1,0 +1,101 @@
+#-------------------------------
+[TRAININGWHEELS]
+Name = Training Wheels
+NamePlural = Training Wheels
+Pocket = 1
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_40
+Description = A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def if the holder can still evolve.
+#-------------------------------
+[TRAINWHISTLE]
+Name = Train Whistle
+NamePlural = Train Whistle
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = Fling_40,KeyItem
+Description = A small whistle in the shape of a train. It has been kept in good condition.
+#-------------------------------
+[TMCRAFTER]
+Name = TM Crafter
+NamePlural = TM Crafters
+Pocket = 8
+FieldUse = Direct
+Flags = Fling_40,KeyItem
+Description = A mysterious crafting tool allowing to build TMs with it.
+#-------------------------------
+[COMMONCANDY]
+Name = Common Candy
+NamePlural = Common Candies
+Pocket = 2
+Price = 5000
+BPPrice = 20
+SellPrice = 10
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy packed with energy that raises the level of a single Pokémon. It cannot go over a level cap.
+#-------------------------------
+[NOTEBOOK]
+Name = Notebook
+NamePlural = Notebooks
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = Fling_40,KeyItem
+Description = A book that allows someone to see their current level cap.
+#-------------------------------
+[HEALTHCHOCOLATE]
+Name = Health Chocolate
+NamePlural = Health Chocolates
+Pocket = 2
+Price = 300
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base HP of a single Pokémon.
+#-------------------------------
+[STRONGCHOCOLATE]
+Name = Strong Chocolate
+NamePlural = Strong Chocolates
+Pocket = 2
+Price = 300
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Attack stat of a single Pokémon.
+#-------------------------------
+[ALLURINGCHOCOLATE]
+Name = Alluring Chocolate
+NamePlural = Alluring Chocolates
+Pocket = 2
+Price = 300
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon.
+#-------------------------------
+[SWEETCHOCOLATE]
+Name = Sweet Chocolate
+NamePlural = Sweet Chocolates
+Pocket = 2
+Price = 300
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Sp. Atk stat of a single Pokémon.
+#-------------------------------
+[SMARTCHOCOLATE]
+Name = Smart Chocolate
+NamePlural = Smart Chocolates
+Pocket = 2
+Price = 300
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon.
+#-------------------------------
+[SWIFTCHOCOLATE]
+Name = Swift Chocolate
+NamePlural = Swift Chocolates
+Pocket = 2
+Price = 300
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon.0.

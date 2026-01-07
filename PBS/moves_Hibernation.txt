@@ -1,0 +1,84 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[SHIVER]
+Name = Shiver
+Type = ICE
+Category = Status
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = FreezeTargetAlwaysHitsInHail
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots the opponent with chilly winds that inflict frostbite.
+#-------------------------------
+[BURNNTURN]
+Name = Burn'N'Turn
+Type = FIRE
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#-------------------------------
+[PSYCHOBLAST]
+Name = Psychoblast
+Type = PSYCHIC
+Category = Special
+Power = 110
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtkSpDef1
+Flags = CanProtect,CanMirrorMove
+Description = The user uses a lot of psychic energy in a large blast, lowering the user's Special Defense and Special Attack.
+#-------------------------------
+[SPIRITSLAM]
+Name = Spirit Slam
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UseUserSpDefenseInsteadOfUserSpAttack
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user slams an avatar of itself into the target. Deals more damage with a higher Sp. Defense stat.
+#-------------------------------
+[FLORALSWITCH]
+Name = Floral Switch
+Type = GRASS
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#-------------------------------
+[HYDROHOP]
+Name = Hydro Hop
+Type = FIRE
+Category = Physical
+Power = 55
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseUserSpeed1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user cloaks hops past water a few times. Building up more power, it raises the user's Speed stat.
+#-------------------------------
+[STATICSHIELD]
+Name = Static Shield
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserFromDamagingMovesStaticShield
+Description = Protects itself from damage. It also harshly paralyzes attackers that make contact.

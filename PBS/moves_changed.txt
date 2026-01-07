@@ -1,0 +1,206 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[RECOVER]
+Name = Recover
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = Restoring its own cells, the user restores its own HP by half of its max HP.
+#-------------------------------
+[SOFTBOILED]
+Name = Soft-Boiled
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.
+#-------------------------------
+[SHOREUP]
+Name = Shore Up
+Type = GROUND
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserDependingOnSandstorm
+Description = The user regains up to half of its max HP. It restores more HP in a sandstorm.
+#-------------------------------
+[MILKDRINK]
+Name = Milk Drink
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.
+#-------------------------------
+[REST]
+Name = Rest
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = HealUserFullyAndFallAsleep
+Description = The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
+#-------------------------------
+[SLACKOFF]
+Name = Slack Off
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = The user slacks off, restoring its own HP by up to half of its maximum HP.
+#-------------------------------
+[ROOST]
+Name = Roost
+Type = FLYING
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHPLoseFlyingTypeThisTurn
+Description = The user lands and rests its body. It restores the user's HP by up to half of its max HP.
+#-------------------------------
+[SKITTERSMACK]
+Name = Skitter Smack
+Type = BUG
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
+#-------------------------------
+[COVET]
+Name = Covet
+Type = FAIRY
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = UserTakesTargetItem
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user endearingly approaches the target, then steals the target's held item.
+#-------------------------------
+[CUT]
+Name = Cut
+Type = NORMAL
+Category = Physical
+Power = 50
+Accuracy = 95
+TotalPP = 30
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is cut with a scythe or a claw that can also be used to cut down thin trees. Is super-effective on Grass-types.
+#-------------------------------
+[SLAM]
+Name = Slam
+Type = NORMAL
+Category = Physical
+Power = 80
+Accuracy = 75
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is slammed with a long tail, vines, etc., to inflict damage.
+#-------------------------------
+[FURYSWIPES]
+Name = Fury Swipes
+Type = NORMAL
+Category = Physical
+Power = 18
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is raked with sharp claws or scythes for two to five times in quick succession.
+#-------------------------------
+[ROCKTOMB]
+Name = Rock Tomb
+Type = ROCK
+Category = Physical
+Power = 60
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
+#-------------------------------
+[ROCKTHROW]
+Name = Rock Throw
+Type = ROCK
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user picks up and throws a small rock at the target to attack.
+#-------------------------------
+[HYPNOSIS]
+Name = Hypnosis
+Type = PSYCHIC
+Category = Status
+Accuracy = 80
+TotalPP = 20
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user employs hypnotic suggestion to make the target fall into a deep sleep.
+#-------------------------------
+[PLAYROUGH]
+Name = Play Rough
+Type = FAIRY
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
+#-------------------------------
+[HIDDENPOWER]
+Name = Hidden Power
+Type = NORMAL
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = TypeDependsOnUserIVsCategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = A unique attack that varies in type, move category and intensity depending on the Pokémon using it.
+#-------------------------------
+[FALSESWIPE]
+Name = False Swipe
+Type = QMARKS
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = CannotMakeTargetFaint
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+#-------------------------------
