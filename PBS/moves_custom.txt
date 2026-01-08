@@ -1,7 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[SHIVER]
-Name = Shiver
+[BONECHILLER]
+Name = Bone Chiller
 Type = ICE
 Category = Status
 Accuracy = 85
@@ -11,8 +11,8 @@ FunctionCode = FreezeTargetAlwaysHitsInHail
 Flags = CanProtect,CanMirrorMove
 Description = The user shoots the opponent with chilly winds that inflict frostbite.
 #-------------------------------
-[BURNNTURN]
-Name = Burn'N'Turn
+[BURNANDTURN]
+Name = Burn and Turn
 Type = FIRE
 Category = Special
 Power = 60
@@ -71,14 +71,3 @@ FunctionCode = RaiseUserSpeed1
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 100
 Description = The user cloaks hops past water a few times. Building up more power, it raises the user's Speed stat.
-#-------------------------------
-[STATICSHIELD]
-Name = Static Shield
-Type = ELECTRIC
-Category = Status
-Accuracy = 0
-TotalPP = 10
-Target = User
-Priority = 4
-FunctionCode = ProtectUserFromDamagingMovesStaticShield
-Description = Protects itself from damage. It also harshly paralyzes attackers that make contact.

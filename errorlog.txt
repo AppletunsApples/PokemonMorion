@@ -1062,3 +1062,171 @@ Backtrace:
 003_UI_base.rb:919:in `block in main'
 003_UI_base.rb:915:in `loop'
 003_UI_base.rb:915:in `main'
+
+=================
+
+[2026-01-08 17:05:31 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Custom Scripts]
+Exception: SyntaxError
+Message: [Custom Scripts] [001] Crest-likes.rb:36: syntax error, unexpected integer literal, expecting '}'
+...er.pokemon.types = [move.type]3
+...                              ^
+
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:05:49 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Custom Scripts]
+Exception: SyntaxError
+Message: [Custom Scripts] [001] Crest-likes.rb:36: syntax error, unexpected integer literal, expecting '}'
+...er.pokemon.types = [move.type]3
+...                              ^
+
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:06:03 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: RuntimeError
+Message: Undefined value PSYCHESLAM in GameData::Move.
+File PBS/items_TMsHMs.txt, section TM33, key Move
+PSYCHESLAM
+
+
+
+Backtrace:
+001_Compiler.rb:374:in `checkEnumField'
+001_Compiler.rb:350:in `cast_csv_value'
+001_Compiler.rb:443:in `block (2 levels) in get_csv_record'
+001_Compiler.rb:429:in `each'
+001_Compiler.rb:429:in `block in get_csv_record'
+001_Compiler.rb:427:in `loop'
+001_Compiler.rb:427:in `get_csv_record'
+002_Compiler_CompilePBS.rb:185:in `block (4 levels) in compile_PBS_file_generic'
+002_Compiler_CompilePBS.rb:167:in `each_key'
+002_Compiler_CompilePBS.rb:167:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2026-01-08 17:06:45 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: RuntimeError
+Message: Undefined value BURNANDTURN in GameData::Move.
+File PBS/items_TMsHMs.txt, section TM41, key Move
+BURNANDTURN
+
+
+
+Backtrace:
+001_Compiler.rb:374:in `checkEnumField'
+001_Compiler.rb:350:in `cast_csv_value'
+001_Compiler.rb:443:in `block (2 levels) in get_csv_record'
+001_Compiler.rb:429:in `each'
+001_Compiler.rb:429:in `block in get_csv_record'
+001_Compiler.rb:427:in `loop'
+001_Compiler.rb:427:in `get_csv_record'
+002_Compiler_CompilePBS.rb:185:in `block (4 levels) in compile_PBS_file_generic'
+002_Compiler_CompilePBS.rb:167:in `each_key'
+002_Compiler_CompilePBS.rb:167:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2026-01-08 17:07:24 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: RuntimeError
+Message: Undefined value GALE in GameData::Move.
+File PBS/items_TMsHMs.txt, section TM76, key Move
+GALE
+
+
+
+Backtrace:
+001_Compiler.rb:374:in `checkEnumField'
+001_Compiler.rb:350:in `cast_csv_value'
+001_Compiler.rb:443:in `block (2 levels) in get_csv_record'
+001_Compiler.rb:429:in `each'
+001_Compiler.rb:429:in `block in get_csv_record'
+001_Compiler.rb:427:in `loop'
+001_Compiler.rb:427:in `get_csv_record'
+002_Compiler_CompilePBS.rb:185:in `block (4 levels) in compile_PBS_file_generic'
+002_Compiler_CompilePBS.rb:167:in `each_key'
+002_Compiler_CompilePBS.rb:167:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2026-01-08 17:07:58 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: RuntimeError
+Message: Undefined value GALE in GameData::Move.
+File PBS/items_TMsHMs.txt, section TM76, key Move
+GALE
+
+
+
+Backtrace:
+001_Compiler.rb:374:in `checkEnumField'
+001_Compiler.rb:350:in `cast_csv_value'
+001_Compiler.rb:443:in `block (2 levels) in get_csv_record'
+001_Compiler.rb:429:in `each'
+001_Compiler.rb:429:in `block in get_csv_record'
+001_Compiler.rb:427:in `loop'
+001_Compiler.rb:427:in `get_csv_record'
+002_Compiler_CompilePBS.rb:185:in `block (4 levels) in compile_PBS_file_generic'
+002_Compiler_CompilePBS.rb:167:in `each_key'
+002_Compiler_CompilePBS.rb:167:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2026-01-08 17:08:21 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: RuntimeError
+Message: Undefined value BONECHILLER in GameData::Move.
+File PBS/items_TMsHMs.txt, section TM88, key Move
+BONECHILLER
+
+
+
+Backtrace:
+001_Compiler.rb:374:in `checkEnumField'
+001_Compiler.rb:350:in `cast_csv_value'
+001_Compiler.rb:443:in `block (2 levels) in get_csv_record'
+001_Compiler.rb:429:in `each'
+001_Compiler.rb:429:in `block in get_csv_record'
+001_Compiler.rb:427:in `loop'
+001_Compiler.rb:427:in `get_csv_record'
+002_Compiler_CompilePBS.rb:185:in `block (4 levels) in compile_PBS_file_generic'
+002_Compiler_CompilePBS.rb:167:in `each_key'
+002_Compiler_CompilePBS.rb:167:in `block (3 levels) in compile_PBS_file_generic'

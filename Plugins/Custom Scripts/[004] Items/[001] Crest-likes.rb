@@ -33,6 +33,6 @@ Battle::ItemEffects::DamageCalcFromUser.add(:INTELEONSCALE,
     next unless user.item == item
     next unless user.pokemon.isSpecies?(:INTELEON)
     next unless move
-    user.pokemon.types = [move.type]3
+    user.pokemon.types = [move.type]
   }
 )

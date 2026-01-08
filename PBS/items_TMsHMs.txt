@@ -338,7 +338,7 @@ NamePlural = TM33s
 Pocket = Machines
 Price = 50000
 FieldUse = TM
-Move = PSYCHESLAM
+Move = SPIRITSLAM
 Description = The user slams an avatar of itself into the target. Deals more damage with a higher Sp. Defense stat.
 #-------------------------------
 [TM34]
@@ -725,8 +725,8 @@ NamePlural = TM76s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
-Move = GALE
-Description = Summons five turns of strong winds that boosts wind-based moves.
+Move = POWERGEM
+Description = The user attacks with a ray of light that sparkles as if it were made of gemstones.
 #-------------------------------
 [TM77]
 Name = TM77
@@ -961,13 +961,3 @@ Price = 10000
 FieldUse = TM
 Move = THIEF
 Description = The user attacks and steals the foe's held item simultaneously.
-#-------------------------------
-[TM103]
-Name = TM103
-NamePlural = TM103s
-Pocket = Machines
-Price = 10000
-FieldUse = TM
-Move = POWERGEM
-Description = The user attacks with a ray of light that sparkles as if it were made of gemstones.
-#-------------------------------
