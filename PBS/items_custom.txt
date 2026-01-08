@@ -5,5 +5,23 @@ NamePlural = Decidueye Quills
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
-Flags = Fling_10
-Description = When held by a Decidueye, this Pokemon's contact moves will be boosted in strength.
+Flags = Crest-like
+Description = When held by a Decidueye, this Pokémon's non-contact moves will be boosted in strength.
+#-------------------------------
+[EMBOARPUFF]
+Name = Emboar Puff
+NamePlural = Emboar Puffs
+Pocket = HeldItems
+Price = 4000
+BPPrice = 25
+Flags = Crest-like
+Description = When held by an Emboar, this Pokémon's recoil moves will not damage it.
+#-------------------------------
+[INTELEONSCALE]
+Name = Inteleon Scale
+NamePlural = Inteleon Scales
+Pocket = HeldItems
+Price = 4000
+BPPrice = 25
+Flags = Crest-like
+Description = When held by an Inteleon, this Pokémon's typing changes to that of the move it uses.
