@@ -102,9 +102,6 @@ Pokedex = Clads itself in the souls of comrades that perished before fulfilling 
 Generation = 8
 Flags = DefaultForm_2,InheritFormWithEverStone
 WildItemUncommon = DEEPSEATOOTH
-WildDropCommon = BASCULINFANG
-WildDropUncommon = BASCULINFANG
-WildDropRare = BASCULINFANG
 #-------------------------------
 [SNEASLER]
 Name = Sneasler
@@ -1693,7 +1690,7 @@ Habitat = Sea
 Category = Dolphin
 Pokedex = It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.
 Generation = 9
-Evolutions = PALAFIN,Level,38
+Evolutions = PALAFIN,LevelWithPartner,38
 #-------------------------------
 [PALAFIN]
 Name = Palafin

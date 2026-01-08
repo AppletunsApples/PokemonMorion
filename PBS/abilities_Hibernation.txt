@@ -1,9 +1,0 @@
-# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
-[CALCULATED]
-Name = Calculated
-Description = Raises the user's Sp. Attack stat.
-#-------------------------------
-[DIAMONDDUST]
-Name = Diamond Dust
-Description = The Pokémon summons a beautiful aurora of snow.
