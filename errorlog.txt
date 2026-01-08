@@ -1230,3 +1230,363 @@ Backtrace:
 002_Compiler_CompilePBS.rb:185:in `block (4 levels) in compile_PBS_file_generic'
 002_Compiler_CompilePBS.rb:167:in `each_key'
 002_Compiler_CompilePBS.rb:167:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2026-01-08 17:14:12 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:14:29 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:14:40 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:14:46 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:15:11 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:16:29 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:17:17 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:17:57 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:18:33 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:19:20 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:19:37 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:20:03 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:21:17 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:22:01 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:23:37 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:24:45 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:26:56 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 17:27:27 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_maps' for Compiler:Module
+
+Backtrace:
+006_Compiler_MapsAndEvents.rb:160:in `create_missing_map_metadata'
+006_Compiler_MapsAndEvents.rb:54:in `block in <module:Compiler>'
+001_Compiler.rb:681:in `block in compile_all'
+001_Compiler.rb:678:in `each_pair'
+001_Compiler.rb:678:in `compile_all'
+001_Compiler.rb:692:in `main'
+999_Main.rb:39:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'

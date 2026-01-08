@@ -157,7 +157,7 @@ module Compiler
       Console.echoln_li(@@categories[:create_missing_map_metadata][:skipped_text].call)
       return
     end
-    Console.echoln_li(_INTL("Created metadata for {1} map(s).", new_maps.length))
+    #Console.echoln_li(_INTL("Created metadata for {1} map(s).", new_maps.length))
     Compiler.write_map_metadata
   end
 

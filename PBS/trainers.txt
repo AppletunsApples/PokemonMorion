@@ -1,6 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [PROFESSOR,Acacia]
+LoseText = Thanks for the practice battle!
 Pokemon = SOBBLE,5
     Gender = male
     Ability = TORRENT
@@ -9,6 +10,7 @@ Pokemon = TEPIG,5
     Ability = BLAZE
 #-------------------------------
 [PROFESSOR,Acacia,1]
+LoseText = Thanks for the practice battle!
 Pokemon = ROWLET,5
     Gender = male
     Ability = OVERGROW
@@ -17,6 +19,7 @@ Pokemon = SOBBLE,5
     Ability = TORRENT
 #-------------------------------
 [PROFESSOR,Acacia,2]
+LoseText = Thanks for the practice battle!
 Pokemon = TEPIG,5
     Gender = male
     Ability = BLAZE
