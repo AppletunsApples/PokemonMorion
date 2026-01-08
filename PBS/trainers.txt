@@ -5,24 +5,30 @@ LoseText = Thanks for the practice battle!
 Pokemon = SOBBLE,5
     Gender = male
     Ability = TORRENT
+    Moves = WATERGUN,POUND,GROWL
 Pokemon = TEPIG,5
     Gender = male
     Ability = BLAZE
+    Moves = POUND,GROWL
 #-------------------------------
 [PROFESSOR,Acacia,1]
 LoseText = Thanks for the practice battle!
 Pokemon = ROWLET,5
     Gender = male
     Ability = OVERGROW
+    Moves = TACKLE,GROWL,LEAFAGE
 Pokemon = SOBBLE,5
     Gender = male
     Ability = TORRENT
+    Moves = POUND,GROWL
 #-------------------------------
 [PROFESSOR,Acacia,2]
 LoseText = Thanks for the practice battle!
 Pokemon = TEPIG,5
     Gender = male
     Ability = BLAZE
+    Moves = EMBER,POUND,GROWL
 Pokemon = ROWLET,5
     Gender = male
     Ability = OVERGROW
+    Moves = TACKLE,GROWL
