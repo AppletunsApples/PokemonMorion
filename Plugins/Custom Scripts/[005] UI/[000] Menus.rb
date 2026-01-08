@@ -1,8 +1,9 @@
 # Options Menu
 MenuHandlers.add(:options_menu, :exp_all_toggle, {
+  "page"        => :graphics,
   "name"        => _INTL("Exp. All"),
-  "order"       => 61,
-  "type"        => EnumOption,
+  "order"       => 50,
+  "type"        => :array,
   "parameters"  => [_INTL("On"), _INTL("Off")],
   "description" => _INTL("Choose whether the entire party gains exp from battle or not."),
   "condition"   => proc { next $player },
@@ -10,38 +11,17 @@ MenuHandlers.add(:options_menu, :exp_all_toggle, {
   "set_proc"    => proc { |value, _sceme| $player.has_exp_all = (value == 0)}
 })
 
-# Pause Menu
-MenuHandlers.add(:pause_menu, :quit_game, {
-  "name"      => _INTL("Quit to Title"),
-  "order"     => 90,
+MenuHandlers.add(:pokegear_menu, :pc, {
+  "name"      => _INTL("Portable PC"),
+  "icon_name" => "pc",
+  "order"     => 40,
+  "condition" => proc {(!$game_switches[Settings::DISABLE_BOX_LINK_SWITCH])},
   "effect"    => proc { |menu|
-    menu.pbHideMenu
-    if pbConfirmMessage(_INTL("Are you sure you want to quit the game?"))
-      scene = PokemonSave_Scene.new
-      screen = PokemonSaveScreen.new(scene)
-      screen.pbSaveScreen
-      menu.pbEndScene
-      $scene = Scene_DebugIntro.new
-      next true
-    end
-    menu.pbRefresh
-    menu.pbShowMenu
-    next false
-  }
-})
-
-MenuHandlers.add(:pokegear_menu, :quests, {
-  "name"      =>  _INTL("Mission Log"),
-  "icon_name" => "quests",
-  "order"     => 60,
-  "condition" => proc { next hasAnyQuests? },
-  "effect"    => proc { |menu|
-    pbPlayDecisionSE
     pbFadeOutIn {
-      scene = QuestList_Scene.new
-      screen = QuestList_Screen.new(scene)
-      screen.pbStartScreen
+      scene = PokemonStorageScene.new
+      screen = PokemonStorageScreen.new(scene, $PokemonStorage)
+      screen.pbStartScreen(0)
     }
     next false
-  }
-})
+    }
+  })

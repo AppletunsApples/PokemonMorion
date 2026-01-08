@@ -1,125 +1,118 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[POKEMONBREEDER_Cerise,Cerise]
-LoseText = Good luck finding him!
-Pokemon = DROWZEE,10
-    Moves = HEADBUTT,PSYWAVE
-    Ability = INNERFOCUS
-    Gender = male
-    Ball = LOVEBALL
+[CAMPER,Liam]
+LoseText = A very good battle, indeed!
+Pokemon = DIGLETT,10
+Pokemon = BONSLY,11
 #-------------------------------
-[RUINMANIAC,Benjamin]
-LoseText = WHAT?!
-Pokemon = ROGGENROLA,12
-    Moves = ROCKTHROW,TACKLE
-    Ability = SANDSTREAM
+[LEADER_Brock,Brock]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Very good.
+Pokemon = GEODUDE,12
+    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+    AbilityIndex = 0
     Gender = male
-    Ball = DUSKBALL
-Pokemon = ROGGENROLA,12
-    Moves = ROCKTHROW,ROCKSMASH
-    Ability = SANDSTREAM
+    IV = 20,20,20,20,20,20
+Pokemon = ONIX,14
+    Name = Rocky
+    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    AbilityIndex = 0
+    Item = SITRUSBERRY
     Gender = male
-    Ball = DUSKBALL
+    IV = 20,20,20,20,20,20
+    Shiny = true
+    Ball = HEAVYBALL
 #-------------------------------
-[CAMPER,Sam]
-LoseText = I wonder why I can't find any.
-Pokemon = MUSHARNA,11
-    Moves = PSYCHOCUT
-    Ability = MAGICGUARD
-    Gender = male
-    Ball = DUSKBALL
+[TEAMROCKET_M,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = WEEPINBELL,21
+    Shadow = true
 #-------------------------------
-[REGIONMAYOR,Cid]
-LoseText = Maybe I should give Cerise my house keys...
-Pokemon = MANKEY,11
-    Moves = PSYBEAM,ROCKSMASH,COVET
-    Ability = CALCULATED
-    Form = 1
-    Ball = MASTERBALL
-    EV = 0,0,0,252,0,0
-Pokemon = LITWICK,12
-    Moves = FLAMECHARGE,HEX
-    Item = EVIOLITE
-    Ability = FLAMEBODY
-    Shiny  = true
-    Ball = MASTERBALL
-    EV = 0,0,0,252,0,0
+[TEAMROCKET_F,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = BURMY,19
+Pokemon = WINGULL,19
+Pokemon = ELECTABUZZ,20
+    Shadow = true
 #-------------------------------
-[YOUNGSTER,Moxie]
-LoseText = Please help her.
-Pokemon = MUNNA,14
-    Moves = HYPNOSIS,PSYWAVE,SHOCKWAVE
-    Ability = MAGICGUARD
-    Gender = male
-    Ball = DREAMBALL
-Pokemon = KRICKETOT,13
-    Moves = BUGBITE,RETURN
-    Ability = TECHNICIAN
-    Gender = male
-    Ball = HEALBALL
+[YOUNGSTER,Ben]
+LoseText = Aww, I lost.
+Pokemon = RATTATA,11
+Pokemon = EKANS,11
 #-------------------------------
-[POKEMONBREEDER_M,Alexander]
-LoseText = Hm.
-Pokemon = AUDINO,12
-    Moves = HEADBUTT,DISARMINGVOICE,INCINERATE
-    Ability = HEALER
-    Gender = male
-    Ball = HEALBALL
+[CAMPER,Jeff]
+LoseText = A very good battle, indeed!
+Pokemon = SPEAROW,16
+Pokemon = SENTRET,16
 #-------------------------------
-[PSYCHIC_F,Lana]
-LoseText = WHAT?!
-Pokemon = MADREAMIE,13
-    Moves = SLEEPPOWDER,DREAMEATER,BUGBITE
-    Ability = INSOMNIA
-    Gender = male
-    Ball = DUSKBALL
+[CAMPER,Jeff,1]
+LoseText = You beat me again!
+Pokemon = FEAROW,29
+Pokemon = FURRET,29
 #-------------------------------
-[RUINMANIAC,Manny]
-LoseText = Tell me...
-Pokemon = TIMBURR,12
-    Moves = ROCKTHROW,ROCKSMASH
-    Item = EVIOLITE
-    Ability = IRONFIST
-    Gender = male
-    Ball = DUSKBALL
-Pokemon = MISDREAVUS,13
-    Moves = NIGHTSHADE,PSYBEAM
-    Gender = male
-    Ball = DUSKBALL
+[PICNICKER,Susie]
+LoseText = Defeated! Oh my!
+Pokemon = MEOWTH,18
 #-------------------------------
-[AROMALADY,Sarah]
-LoseText = Aww, well.
-Pokemon = WHIMSICOTT,11
-    Moves = GUST,STUNSPORE,KNOCKOFF,ABSORB
-    Ability = PRANKSTER
-    Gender = male
-    Ball = NETBALL
+[PICNICKER,Susie,1]
+LoseText = Defeated! Oh my!
+Pokemon = PERSIAN,32
 #-------------------------------
-[FISHERMAN,Xander]
-LoseText = NO.
-Pokemon = STARMIE,13
-    Moves = AQUAJET,PSYCHOCUT
-    Ability = NATURALCURE
-    Gender = male
-    Ball = DIVEBALL
+[HIKER,Ford]
+LoseText = You're too good for me!
+Pokemon = MACHOP,19
 #-------------------------------
-[CORRUPTEDCONDUCTOR,Karrie]
-LoseText =  I'm finally free.
-Pokemon = TYRUNT,13
-    Moves = ROCKTOMB,SPARK,BITE
-    Ability = INTIMIDATE
-    Form = 1
-    Gender = female
-    Ball = DREAMBALL
-Pokemon = GURDURR,12
-    Moves = ROCKTOMB,MACHPUNCH,BRUTALSWING
-    Item = EVIOLITE
-    Ability = GUTS
-    Gender = female
-    Ball = ULTRABALL
-Pokemon = KRICKETUNE,15
-    Moves = BUGBITE,QUICKATTACK,AERIALACE,THIEF
-    Form = 1
-    Ability = PIXILATE
-    Gender = female
-    Ball = DREAMBALL
+[FISHERMAN,Andrew]
+LoseText = Washed out!
+Pokemon = MAGIKARP,14
+Pokemon = MAGIKARP,18
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = My Skitty!
+Pokemon = SKITTY,18
+#-------------------------------
+[LASS,Crissy]
+LoseText = You didn't have to win so convincingly!
+Pokemon = PLUSLE,17
+Pokemon = MINUN,17
+#-------------------------------
+[COOLCOUPLE,Alice & Bob]
+LoseText = Our teamwork failed!
+Pokemon = TURTWIG,19
+Pokemon = CHIMCHAR,19
+#-------------------------------
+[POKEMONTRAINER_May,May]
+LoseText = ...
+Pokemon = COMBUSKEN,19
+#-------------------------------
+[SWIMMER2_F,Ariel]
+LoseText = Washed out!
+Pokemon = STARYU,15
+Pokemon = GOLDEEN,11
+#-------------------------------
+[RIVAL1,Blue]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = BULBASAUR,18
+#-------------------------------
+[RIVAL1,Blue,1]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CHARMANDER,18
+#-------------------------------
+[RIVAL1,Blue,2]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = SQUIRTLE,18
+#-------------------------------
+[CHAMPION,Blue]
+LoseText = A good battle indeed!
+Pokemon = VENUSAUR,63
+    Item = SITRUSBERRY
+Pokemon = CHARIZARD,63
+    Item = SITRUSBERRY
+Pokemon = BLASTOISE,63
+    Item = SITRUSBERRY
