@@ -14,15 +14,18 @@ module NewGamePlus
 
   # Returns the path to the NG+ data file
   def self.data_path
-    return "#{System.data_directory}#{FILE_NAME}" if File.directory?(System.data_directory)
-    return "Data/#{FILE_NAME}"
+    dir = System.data_directory
+    return "Data/#{FILE_NAME}" if !dir || !File.directory?(dir)
+    return dir + FILE_NAME
   end
 
   # Returns whether the NG+ data file exists
-  def exists?; File.exist?(data_path); end
+  def exists?
+    File.exist?(data_path)
+  end
 
   # Prepares and saves the NG+ data from the current player
-  def prepare
+  def self.prepare
     return if !$player || $player.party.empty?
     if save
       echoln(_INTL("New Game+ data has been prepared."))
@@ -197,6 +200,23 @@ module Game
 end
 
 #-------------------------------------------------------------------------------
+# Add "New Game+" option to Load Screen
+#-------------------------------------------------------------------------------
+class UI::LoadPanel
+  ACTIONS.add(:new_game_plus, {
+    :effect => proc { |screen|
+      screen.end_screen
+      NewGamePlus.start
+    }
+  })
+
+MenuHandlers.add(:load_screen, :new_game_plus, {
+  "name"      => _INTL("New Game Plus"),
+  "order"     => 31,
+  "condition" => proc { NewGamePlus.valid? }
+})
+
+#-------------------------------------------------------------------------------
 # Debug options to save and clear NG+ data
 #-------------------------------------------------------------------------------
 MenuHandlers.add(:debug_menu, :save_ngplus, {
@@ -207,9 +227,9 @@ MenuHandlers.add(:debug_menu, :save_ngplus, {
     if $player && !$player.party.empty?
       NewGamePlus.save
       pbMessage(_INTL("New Game Plus data saved."))
-      if pbConfirmMessage("Would you like to go back to the Titlescreen?")
+      if pbConfirmMessage("Would you like to go back to the Title Screen?")
         $game_temp.title_screen_calling = true
-        pbMessage(_INTL("You will be taken to the titlescreen after closing the Pause Menu."))
+        pbMessage(_INTL("You will be taken to the Title Screen after closing the Pause Menu."))
       end
     else
       pbMessage(_INTL("Your party is empty. Cannot start a New Game Plus."))

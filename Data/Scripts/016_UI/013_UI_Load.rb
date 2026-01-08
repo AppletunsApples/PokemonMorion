@@ -715,12 +715,6 @@ MenuHandlers.add(:load_screen, :new_game, {
   "order"     => 30
 })
 
-MenuHandlers.add(:load_screen, :new_game_plus, {
-  "name"      => _INTL("New Game Plus"),
-  "order"     => 31,
-  "condition" => proc { |screen| next NewGamePlus.valid? }
-})
-
 MenuHandlers.add(:load_screen, :options, {
   "name"      => _INTL("Options"),
   "order"     => 40
