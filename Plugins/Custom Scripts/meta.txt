@@ -1,5 +1,4 @@
 Name       = Custom Scripts
 Version    = 1.0.0
-Requires = Generation 9 Pack,3.3.2
 Essentials = 21.1
 Credits    = Hedgehog

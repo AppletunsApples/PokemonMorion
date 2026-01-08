@@ -1353,18 +1353,6 @@ Battle::AbilityEffects::AccuracyCalcFromTarget.add(:NOGUARD,
   }
 )
 
-Battle::AbilityEffects::AccuracyCalcFromTarget.add(:SANDVEIL,
-  proc { |ability, mods, user, target, move, type|
-    mods[:evasion_multiplier] *= 1.25 if target.effectiveWeather == :Sandstorm
-  }
-)
-
-Battle::AbilityEffects::AccuracyCalcFromTarget.add(:SNOWCLOAK,
-  proc { |ability, mods, user, target, move, type|
-    mods[:evasion_multiplier] *= 1.25 if [:Hail, :Snowstorm].include?(target.effectiveWeather)
-  }
-)
-
 Battle::AbilityEffects::AccuracyCalcFromTarget.add(:STORMDRAIN,
   proc { |ability, mods, user, target, move, type|
     mods[:base_accuracy] = 0 if type == :WATER

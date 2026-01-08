@@ -1,4 +1,4 @@
-Battle::ItemEffects::DamageCalc.add(:DECIDUEYEQUILL,
+Battle::ItemEffects::DamageCalcFromUser.add(:DECIDUEYEQUILL,
   proc { |item, user, target, move, mults, power|
     next if !user || !user.pokemon
     next if user.item != item

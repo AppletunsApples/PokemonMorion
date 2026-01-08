@@ -207,17 +207,3 @@ class PokemonSystem
     @battle_speed = 0 # Depends on the SPEEDUP_STAGES array size
   end
 end
-#===============================================================================#
-# Options menu handlers
-#===============================================================================#
-MenuHandlers.add(:options_menu, :battle_speed, {
-  "name" => _INTL("Battle Speed"),
-  "order" => 26,
-  "type" => EnumOption,
-  "parameters" => [_INTL("x#{SPEEDUP_STAGES[0]}"), _INTL("x#{SPEEDUP_STAGES[1]}"), _INTL("x#{SPEEDUP_STAGES[2]}")],
-  "description" => _INTL("Choose the battle speed when the battle speed-up is set to 'Battles Only'."),
-  "get_proc" => proc { next $PokemonSystem.battle_speed },
-  "set_proc" => proc { |value, scene|
-    $PokemonSystem.battle_speed = value
-  }
-})

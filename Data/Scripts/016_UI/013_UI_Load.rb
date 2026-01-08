@@ -653,6 +653,12 @@ class UI::Load < UI::BaseScreen
       Game.start_new
     }
   })
+  ACTIONS.add(:delete_save, {
+    :effect => proc { |screen|
+      screen.end_screen
+      NewGamePlus.start
+    }
+  })
   ACTIONS.add(:options, {
     :effect => proc { |screen|
       pbFadeOutInWithUpdate(screen.sprites) do
@@ -707,6 +713,12 @@ MenuHandlers.add(:load_screen, :mystery_gift, {
 MenuHandlers.add(:load_screen, :new_game, {
   "name"      => _INTL("New Game"),
   "order"     => 30
+})
+
+MenuHandlers.add(:load_screen, :new_game_plus, {
+  "name"      => _INTL("New Game Plus"),
+  "order"     => 31,
+  "condition" => proc { |screen| next NewGamePlus.valid? }
 })
 
 MenuHandlers.add(:load_screen, :options, {
