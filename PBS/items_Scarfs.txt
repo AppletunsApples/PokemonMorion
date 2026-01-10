@@ -5,7 +5,7 @@ NamePlural = Decidueye Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
-Flags = Crest-like
+Flags = Scarf
 Description = When held by a Decidueye, this Pokémon's non-contact moves will be boosted in strength.
 #-------------------------------
 [EMBOARSCARF]
@@ -14,7 +14,7 @@ NamePlural = Emboar Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
-Flags = Crest-like
+Flags = Scarf
 Description = When held by an Emboar, this Pokémon's recoil moves will not damage it.
 #-------------------------------
 [INTELEONSCARF]
@@ -23,7 +23,7 @@ NamePlural = Inteleon Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
-Flags = Crest-like
+Flags = Scarf
 Description = When held by an Inteleon, this Pokémon's typing changes to that of the move it uses.
 #-------------------------------
 [MORPEKOSCARF]
@@ -32,7 +32,7 @@ NamePlural = Morpeko Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
-Flags = Crest-like
+Flags = Scarf
 Description = When held by a Morpeko, this Pokémon's Normal-type moves change type based on its current form.
 #-------------------------------
 [BEAUTIFLYSCARF]
@@ -41,7 +41,7 @@ NamePlural = Beautifly Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
-Flags = Crest-like
+Flags = Scarf
 Description = When held by a Beautifly, its Speed scales to its Sp. Atk and accuracy is boosted.
 #-------------------------------
 [DUSTOXSCARF]
@@ -50,5 +50,5 @@ NamePlural = Dustox Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
-Flags = Crest-like
+Flags = Scarf
 Description = When held by a Dustox, its Speed scales to its Sp. Def and accuracy is boosted.

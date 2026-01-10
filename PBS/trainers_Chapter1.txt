@@ -35,15 +35,17 @@ Pokemon = ROWLET,5
 #-------------------------------
 [MAYOR,Blanc]
 LoseText = Glad to see some truly new potential prove themselves!
-Pokemon = MORPEKO,10
+Pokemon = DUSTOX,10
     Gender = male
-    Moves = QUICKATTACK,FAKEOUT,FIREFANG,BULLETSEED
+    Moves = CONFUSION,BUGBITE,STUNSPORE,TACKLE
+    Ability = COMPOUNDEYES
     Item = DUSTOXSCARF
 Pokemon = BEAUTIFLY,10
     Gender = male
-    Moves = QUICKATTACK,FAKEOUT,FIREFANG,BULLETSEED
+    Moves = GUST,POISONSTING,ABSORB,STUNSPORE
+    Ability = RIVALRY
     Item = BEAUTIFLYSCARF
 Pokemon = MANKEY,11
     Gender = female
     Ability = VITALSPIRIT
-    Moves = FURYSWIPES,POWERUPPUNCH,PURSUIT
+    Moves = FURYSWIPES,POWERUPPUNCH,PURSUIT,ROCKTOMB
