@@ -32,3 +32,13 @@ Pokemon = ROWLET,5
     Gender = male
     Ability = OVERGROW
     Moves = TACKLE,GROWL
+#-------------------------------
+[MAYOR,Blanc]
+LoseText = .
+Pokemon = MORPEKO,10
+    Gender = female
+    Moves = QUICKATTACK,FAKEOUT,FIREFANG,BULLETSEED
+Pokemon = MANKEY,11
+    Gender = male
+    Ability = VITALSPIRIT
+    Moves = FURYSWIPE,POWERUPPUNCH,PURSUIT

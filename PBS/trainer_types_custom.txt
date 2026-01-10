@@ -1,0 +1,6 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[MAYOR]
+Name = Mayor
+Gender = Other
+BaseMoney = 100
