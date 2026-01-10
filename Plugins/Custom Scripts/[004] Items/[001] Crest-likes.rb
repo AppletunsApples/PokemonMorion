@@ -26,14 +26,21 @@ class Battle::Move::RecoilMove < Battle::Move
 end
 
 Battle::ItemEffects::ModifyMoveBaseType.add(:INTELEONSCALE,
-  proc { |item, type|
+  proc { |item, user, move, type|
     next unless user.isSpecies?(:INTELEON)
+    next if move.callsAnotherMove? || move.snatched
+    next unless user.pbHasOtherType?(move.calcType) && !GameData::Type.get(move.calcType).pseudo_type
+
+    @battle.pbShowAbilitySplash(user) if @battle.respond_to?(:pbShowAbilitySplash)
     user.pbChangeTypes(move.calcType)
+    type_name = GameData::Type.get(move.calcType).name
+    @battle.pbDisplay(_INTL("{1}'s type changed to {2}!", user.pbThis, type_name))
+    @battle.pbHideAbilitySplash(user) if @battle.respond_to?(:pbHideAbilitySplash)
   }
 )
 
 Battle::ItemEffects::ModifyMoveBaseType.add(:MORPEKOFUR,
-  proc { |item, type|
+  proc { |item, user, move, type|
     next unless user.isSpecies?(:MORPEKO)
     next if move.type != :NORMAL
     form = user.pokemon.form
@@ -83,14 +90,14 @@ Battle::ItemEffects::ModifyMoveBaseType.add(:MORPEKOFUR,
     return [(speed * speedMult).round, 1].max
   end
 
-Battle::AbilityEffects::AccuracyCalcFromUser.add(:DUSTOXSCALE,
+Battle::ItemEffects::AccuracyCalcFromUser.add(:DUSTOXSCALE,
   proc { |ability, user, target, move, modifiers|
     next unless user.isSpecies?(:DUSTOX)
     modifiers[:accuracy_multiplier] *= 1.3
   }
 )
 
-Battle::AbilityEffects::AccuracyCalcFromUser.add(:BEAUTIFLYSCALE,
+Battle::ItemEffects::AccuracyCalcFromUser.add(:BEAUTIFLYSCALE,
   proc { |ability, user, target, move, modifiers|
     next unless user.isSpecies?(:BEAUTIFLY)
     modifiers[:accuracy_multiplier] *= 1.3

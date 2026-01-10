@@ -33,8 +33,14 @@ Name = City Hall
 [011]   # Hive Town
 Name = Hive Town
 #-------------------------------
-[012]   # Takotsubo Train
+[012]   # Takotsubo Store
 Name = Takotsubo Train
 #-------------------------------
-[013]   # Takotsubo Store
-Name = Takotsubo Store
+[013]   # Catara Sewers
+Name = Catara Sewers
+#-------------------------------
+[014]   # Catara Park
+Name = Catara Park
+#-------------------------------
+[015]   # Catara Train Station
+Name = Catara Train Station

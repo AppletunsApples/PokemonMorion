@@ -2,21 +2,21 @@
 #-------------------------------
 [007] # Granulo Graveyard
 Land,15
-40,SHUPPET,4,6
-30,KOFFING,4,6
-20,EKANS,4,6
-5,LITWICK,4,6
-5,PUMPKABOO,4,6
+   40,SHUPPET,4,6
+   30,KOFFING,4,6
+   20,EKANS,4,6
+   5,LITWICK,4,6
+   5,PUMPKABOO,4,6
 #-------------------------------
 [013] # Catara Sewers
 Cave,10
-   30,T0RUBBISH,4,6
+   30,TRUBBISH,4,6
    30,KOFFING,4,6
    20,GULPIN,4,6
    10,KLINK,4,6
    10,STUNKY,4,6
 #-------------------------------
-[013] # Catara Park
+[014] # Catara Park
 Land,15
     30,WURMPLE,4,6
     25,MANKEY,4,6

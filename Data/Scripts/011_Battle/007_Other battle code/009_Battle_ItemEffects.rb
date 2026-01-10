@@ -26,6 +26,7 @@ module Battle::ItemEffects
   DamageCalcFromTarget            = ItemHandlerHash.new
   CriticalCalcFromUser            = ItemHandlerHash.new
   CriticalCalcFromTarget          = ItemHandlerHash.new   # None!
+  ModifyMoveBaseType              = ItemHandlerHash.new
   # Upon a move hitting a target
   OnBeingHit                      = ItemHandlerHash.new
   OnBeingHitPositiveBerry         = ItemHandlerHash.new
@@ -142,6 +143,10 @@ module Battle::ItemEffects
 
   def self.triggerCriticalCalcFromTarget(item, user, target, move, crit_stage)
     return trigger(CriticalCalcFromTarget, item, user, target, move, crit_stage, ret: crit_stage)
+  end
+
+  def self.triggerModifyMoveBaseType(item, user, move, type)
+    return trigger(ModifyMoveBaseType, item, user, move, type, ret: type)
   end
 
   #-----------------------------------------------------------------------------

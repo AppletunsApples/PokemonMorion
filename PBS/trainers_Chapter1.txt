@@ -34,7 +34,7 @@ Pokemon = ROWLET,5
     Moves = TACKLE,GROWL
 #-------------------------------
 [MAYOR,Blanc]
-LoseText = .
+LoseText = Glad to see some truly new potential prove themselves!
 Pokemon = MORPEKO,10
     Gender = female
     Moves = QUICKATTACK,FAKEOUT,FIREFANG,BULLETSEED
@@ -42,4 +42,4 @@ Pokemon = MORPEKO,10
 Pokemon = MANKEY,11
     Gender = male
     Ability = VITALSPIRIT
-    Moves = FURYSWIPE,POWERUPPUNCH,PURSUIT
+    Moves = FURYSWIPES,POWERUPPUNCH,PURSUIT
