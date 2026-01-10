@@ -25,28 +25,14 @@ class Battle::Move::RecoilMove < Battle::Move
   end
 end
 
-Battle::ItemEffects::ModifyMoveBaseType.add(:INTELEONSCARF,
-  proc { |item, user, move, type|
-    next unless user.isSpecies?(:INTELEON)
-    next if move.callsAnotherMove? || move.snatched
-    next unless user.pbHasOtherType?(move.calcType) && !GameData::Type.get(move.calcType).pseudo_type
-
-    @battle.pbShowAbilitySplash(user) if @battle.respond_to?(:pbShowAbilitySplash)
-    user.pbChangeTypes(move.calcType)
-    type_name = GameData::Type.get(move.calcType).name
-    @battle.pbDisplay(_INTL("{1}'s type changed to {2}!", user.pbThis, type_name))
-    @battle.pbHideAbilitySplash(user) if @battle.respond_to?(:pbHideAbilitySplash)
-  }
-)
-
 Battle::ItemEffects::ModifyMoveBaseType.add(:MORPEKOSCARF,
   proc { |item, user, move, type|
-    next unless user.isSpecies?(:MORPEKO)
-    next if move.type != :NORMAL
+    next type unless user.isSpecies?(:MORPEKO)
+    next type if move.type != :NORMAL
     form = user.pokemon.form
-    return :DARK if form == 0
-    return :ELECTRIC if form == 1
-    return type
+    next :DARK if form == 0
+    next :ELECTRIC if form == 1
+    next type
   }
 )
 
@@ -63,7 +49,7 @@ def pbSpeed
         speed_stat = :SPECIAL_DEFENSE if self.item == :DUSTOXSCARF
       end
     end
-      # Base stat
+    # Base stat
     base_speed = case speed_stat
           when :SPECIAL_ATTACK  then @spatk
           when :SPECIAL_DEFENSE then @spdef

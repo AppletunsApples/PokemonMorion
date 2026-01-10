@@ -1,52 +1,52 @@
 #-------------------------------
-[DECIDUEYEQUILL]
-Name = Decidueye Quill
-NamePlural = Decidueye Quills
+[DECIDUEYESCARF]
+Name = Decidueye Scarf
+NamePlural = Decidueye Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Crest-like
 Description = When held by a Decidueye, this Pokémon's non-contact moves will be boosted in strength.
 #-------------------------------
-[EMBOARPUFF]
-Name = Emboar Puff
-NamePlural = Emboar Puffs
+[EMBOARSCARF]
+Name = Emboar Scarf
+NamePlural = Emboar Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Crest-like
 Description = When held by an Emboar, this Pokémon's recoil moves will not damage it.
 #-------------------------------
-[INTELEONSCALE]
-Name = Inteleon Scale
-NamePlural = Inteleon Scales
+[INTELEONSCARF]
+Name = Inteleon Scarf
+NamePlural = Inteleon Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Crest-like
 Description = When held by an Inteleon, this Pokémon's typing changes to that of the move it uses.
 #-------------------------------
-[MORPEKOFUR]
-Name = Morpeko Fur
-NamePlural = Morpeko Fur
+[MORPEKOSCARF]
+Name = Morpeko Scarf
+NamePlural = Morpeko Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Crest-like
 Description = When held by a Morpeko, this Pokémon's Normal-type moves change type based on its current form.
 #-------------------------------
-[BEAUTIFLYSCALE]
-Name = Beautifly Scale
-NamePlural = Beautifly Scales
+[BEAUTIFLYSCARF]
+Name = Beautifly Scarf
+NamePlural = Beautifly Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Crest-like
 Description = When held by a Beautifly, its Speed scales to its Sp. Atk and accuracy is boosted.
 #-------------------------------
-[DUSTOXSCALE]
-Name = Dustox Scale
-NamePlural = Dustox Scales
+[DUSTOXSCARF]
+Name = Dustox Scarf
+NamePlural = Dustox Scarfs
 Pocket = HeldItems
 Price = 4000
 BPPrice = 25

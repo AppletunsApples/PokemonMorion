@@ -368,6 +368,22 @@ class Battle::Battler
         end
       end
     end
+    # Inteleon Scarf
+    if user.item == :INTELEONSCARF && user.pokemon.isSpecies?(:INTELEON) &&
+       !move.callsAnotherMove? && !move.snatched &&
+       user.pbHasOtherType?(move.calcType) && !GameData::Type.get(move.calcType).pseudo_type
+      user.pbChangeTypes(move.calcType)
+      typeName = GameData::Type.get(move.calcType).name
+      @battle.pbDisplay(_INTL("{1}'s type changed to {2}!", user.pbThis, typeName))
+      # NOTE: The GF games say that if Curse is used by a non-Ghost-type
+      #       Pokémon which becomes Ghost-type because of Protean, it should
+      #       target and curse itself. I think this is silly, so I'm making it
+      #       choose a random opponent to curse instead.
+      if move.function_code == "CurseTargetOrLowerUserSpd1RaiseUserAtkDef1" && targets.length == 0
+        choice[3] = -1
+        targets = pbFindTargets(choice, move, user)
+      end
+    end
     # Protean
     if user.hasActiveAbility?([:LIBERO, :PROTEAN]) && !user.abilityUsedThisSwitchIn? &&
        !move.callsAnotherMove? && !move.snatched &&
@@ -382,6 +398,19 @@ class Battle::Battler
       #       Pokémon which becomes Ghost-type because of Protean, it should
       #       target and curse itself. I think this is silly, so I'm making it
       #       choose a random opponent to curse instead.
+      if move.function_code == "CurseTargetOrLowerUserSpd1RaiseUserAtkDef1" && targets.length == 0
+        choice[3] = -1
+        targets = pbFindTargets(choice, move, user)
+      end
+    end
+    if user.item == :INTELEONSCARF && user.pokemon.isSpecies?(:INTELEON) && !user.abilityUsedThisSwitchIn? &&
+       !move.callsAnotherMove? && !move.snatched &&
+       user.pbHasOtherType?(move.calcType) && !GameData::Type.get(move.calcType).pseudo_type
+      @battle.pbShowAbilitySplash(user, true)
+      user.pbChangeTypes(move.calcType)
+      typeName = GameData::Type.get(move.calcType).name
+      @battle.pbDisplay(_INTL("{1}'s type changed to {2}!", user.pbThis, typeName))
+      @battle.pbHideAbilitySplash(user)
       if move.function_code == "CurseTargetOrLowerUserSpd1RaiseUserAtkDef1" && targets.length == 0
         choice[3] = -1
         targets = pbFindTargets(choice, move, user)

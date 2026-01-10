@@ -8,10 +8,9 @@ class Battle::Move
 
   def pbBaseType(user)
     ret = @type
-    if ret && user.abilityActive?
-      ret = Battle::AbilityEffects.triggerModifyMoveBaseType(user.ability, user, self, ret)
-    end
-    return ret
+      ret = Battle::AbilityEffects.triggerModifyMoveBaseType(user.ability, user, self, ret) if ret && user.abilityActive?
+      ret = Battle::ItemEffects.triggerModifyMoveBaseType(user.item, user, self, ret) if ret && user.itemActive?
+    ret
   end
 
   def pbCalcType(user)
