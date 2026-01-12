@@ -6,7 +6,7 @@ Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Scarf
-Description = When held by a Decidueye, this Pokémon's non-contact moves will be boosted in strength.
+Description = When held by a Decidueye, its non-contact moves will be boosted in strength.
 #-------------------------------
 [EMBOARSCARF]
 Name = Emboar Scarf
@@ -15,7 +15,7 @@ Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Scarf
-Description = When held by an Emboar, this Pokémon's recoil moves will not damage it.
+Description = When held by an Emboar, its recoil moves will not damage it.
 #-------------------------------
 [INTELEONSCARF]
 Name = Inteleon Scarf
@@ -24,7 +24,7 @@ Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Scarf
-Description = When held by an Inteleon, this Pokémon's typing changes to that of the move it uses.
+Description = When held by an Inteleon, its typing changes to that of the move it uses.
 #-------------------------------
 [MORPEKOSCARF]
 Name = Morpeko Scarf
@@ -33,7 +33,7 @@ Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Scarf
-Description = When held by a Morpeko, this Pokémon's Normal-type moves change type based on its current form.
+Description = When held by a Morpeko, its Normal-type moves change type based on its current form.
 #-------------------------------
 [BEAUTIFLYSCARF]
 Name = Beautifly Scarf
