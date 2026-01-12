@@ -7023,8 +7023,8 @@ Pokedex = It sticks to tree branches and eats leaves. The thread it spits from i
 Generation = 3
 WildItemCommon = PECHABERRY
 WildItemUncommon = BRIGHTPOWDER
-Evolution = SILCOON,Silcoon,7
-Evolution = CASCOON,Cascoon,7
+Evolution = SILCOON,LevelDay,7
+Evolution = CASCOON,LevelNight,7
 #-------------------------------
 [SILCOON]
 Name = Silcoon
