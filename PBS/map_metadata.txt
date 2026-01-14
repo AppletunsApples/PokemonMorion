@@ -48,5 +48,5 @@ Name = Catara Train Station
 [016]   # Catara Train Station
 Name = Catara Train Station
 #-------------------------------
-[017]   # Ee-de-ar Town
-Name = Ee-de-ar Town
+[017]   # Edee-ar Town
+Name = Edee-ar Town

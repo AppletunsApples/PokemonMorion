@@ -2213,3 +2213,579 @@ Backtrace:
 007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
 001_PBDebug.rb:9:in `logonerr'
 007_Battler_UseMove.rb:55:in `pbProcessTurn'
+
+=================
+
+[2026-01-14 10:13:18 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:27: syntax error, unexpected `end', expecting end-of-input
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-14 10:13:47 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:75: class definition in method body
+class Pokemon
+^~~~~~~~~~~~~
+[Story-based Levels] Script.rb:96: class definition in method body
+class Game_Variables
+^~~~~~~~~~~~~~~~~~~~
+[Story-based Levels] Script.rb:113: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-14 10:15:47 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: uninitialized constant Pokemon::Story_LevelStats
+
+Backtrace:
+[Story-based Levels] Script.rb:93:in `calc_stats'
+[Story-based Levels] Script.rb:69:in `block (2 levels) in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:69:in `each'
+[Story-based Levels] Script.rb:69:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:53:in `loop'
+[Story-based Levels] Script.rb:53:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:41:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+
+=================
+
+[2026-01-14 10:17:34 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbMessageNumber' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:59:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:53:in `loop'
+[Story-based Levels] Script.rb:53:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:41:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 10:20:25 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: uninitialized constant Story_LevelStats
+
+Backtrace:
+[Story-based Levels] Script.rb:68:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:53:in `loop'
+[Story-based Levels] Script.rb:53:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:41:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 10:22:33 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:121: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-14 10:23:02 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: uninitialized constant Story_LevelStats::STORY_VARIABLE
+
+Backtrace:
+[Story-based Levels] Script.rb:10:in `get_story_level'
+[Story-based Levels] Script.rb:93:in `calc_stats'
+[Story-based Levels] Script.rb:17:in `block in recalc_all_stats'
+[Story-based Levels] Script.rb:16:in `each'
+[Story-based Levels] Script.rb:16:in `recalc_all_stats'
+[Story-based Levels] Script.rb:69:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:54:in `loop'
+[Story-based Levels] Script.rb:54:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:42:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+
+=================
+
+[2026-01-14 10:24:59 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: uninitialized constant Story_LevelStats::STORY_VARIABLE
+
+Backtrace:
+[Story-based Levels] Script.rb:15:in `get_story_level'
+[Story-based Levels] Script.rb:98:in `calc_stats'
+[Story-based Levels] Script.rb:22:in `block in recalc_all_stats'
+[Story-based Levels] Script.rb:21:in `each'
+[Story-based Levels] Script.rb:21:in `recalc_all_stats'
+[Story-based Levels] Script.rb:74:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:59:in `loop'
+[Story-based Levels] Script.rb:59:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:47:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+
+=================
+
+[2026-01-14 10:26:31 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: uninitialized constant Story_LevelStats::STORY_VARIABLE
+
+Backtrace:
+[Story-based Levels] Script.rb:10:in `get_story_level'
+[Story-based Levels] Script.rb:73:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:54:in `loop'
+[Story-based Levels] Script.rb:54:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:42:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+
+=================
+
+[2026-01-14 10:27:33 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: uninitialized constant Story_LevelStats::STORY_LEVELS
+
+Backtrace:
+[Story-based Levels] Script.rb:11:in `get_story_level'
+[Story-based Levels] Script.rb:73:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:54:in `loop'
+[Story-based Levels] Script.rb:54:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:42:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+
+=================
+
+[2026-01-14 10:28:04 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbMessageNumber' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:60:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:54:in `loop'
+[Story-based Levels] Script.rb:54:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:42:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 10:29:53 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: NameError
+Message: undefined method `draw_pokemon_text' for class `PokemonPartyScreen'
+
+Backtrace:
+[Story-based Levels] Script.rb:44:in `<class:PokemonPartyScreen>'
+[Story-based Levels] Script.rb:43:in `<main>'
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+
+=================
+
+[2026-01-14 10:36:33 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:101: class definition in method body
+class Pokemon
+^~~~~~~~~~~~~
+[Story-based Levels] Script.rb:122: class definition in method body
+class Game_Variables
+^~~~~~~~~~~~~~~~~~~~
+[Story-based Levels] Script.rb:139: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-14 10:37:08 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbMessageNumber' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:78:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:72:in `loop'
+[Story-based Levels] Script.rb:72:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 10:38:31 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:98: class definition in method body
+class Pokemon
+^~~~~~~~~~~~~
+[Story-based Levels] Script.rb:119: class definition in method body
+class Game_Variables
+^~~~~~~~~~~~~~~~~~~~
+[Story-based Levels] Script.rb:136: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-14 10:38:57 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbMessageNumber' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:77:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 10:42:22 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `new4' for ChooseNumberParams:Class
+
+Backtrace:
+[Story-based Levels] Script.rb:77:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 10:42:41 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 3, expected 0)
+
+Backtrace:
+011_Messages.rb:59:in `initialize'
+[Story-based Levels] Script.rb:77:in `new'
+[Story-based Levels] Script.rb:77:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+
+=================
+
+[2026-01-14 10:43:11 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:80: syntax error, unexpected constant, expecting ')'
+        Settings::STORY_LEVELS.length - 1
+        ^~~~~~~~
+[Story-based Levels] Script.rb:82: syntax error, unexpected ')', expecting `end'
+      )
+      ^
+[Story-based Levels] Script.rb:86: syntax error, unexpected `when', expecting `end'
+    when 1
+    ^~~~
+[Story-based Levels] Script.rb:89: syntax error, unexpected `when', expecting `end'
+    when 2
+    ^~~~
+[Story-based Levels] Script.rb:93: syntax error, unexpected `end', expecting end-of-input
+  end
+  ^~~
+
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-14 10:43:21 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:80: syntax error, unexpected constant, expecting ')'
+        Settings::STORY_LEVELS.length - 1
+        ^~~~~~~~
+[Story-based Levels] Script.rb:82: syntax error, unexpected ')', expecting `end'
+      )
+      ^
+[Story-based Levels] Script.rb:86: syntax error, unexpected `when', expecting `end'
+    when 1
+    ^~~~
+[Story-based Levels] Script.rb:89: syntax error, unexpected `when', expecting `end'
+    when 2
+    ^~~~
+[Story-based Levels] Script.rb:93: syntax error, unexpected `end', expecting end-of-input
+  end
+  ^~~
+
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-14 10:44:12 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 4, expected 0)
+
+Backtrace:
+011_Messages.rb:59:in `initialize'
+[Story-based Levels] Script.rb:77:in `new'
+[Story-based Levels] Script.rb:77:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+
+=================
+
+[2026-01-14 10:44:34 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 4, expected 0)
+
+Backtrace:
+011_Messages.rb:59:in `initialize'
+[Story-based Levels] Script.rb:77:in `new'
+[Story-based Levels] Script.rb:77:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+
+=================
+
+[2026-01-14 10:47:26 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 4, expected 0)
+
+Backtrace:
+011_Messages.rb:59:in `initialize'
+[Story-based Levels] Script.rb:77:in `new'
+[Story-based Levels] Script.rb:77:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+
+=================
+
+[2026-01-14 10:49:45 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `current' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:80:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 10:50:17 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 4, expected 0)
+
+Backtrace:
+011_Messages.rb:59:in `initialize'
+[Story-based Levels] Script.rb:79:in `new'
+[Story-based Levels] Script.rb:79:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+
+=================
+
+[2026-01-14 10:52:04 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `new4' for ChooseNumberParams:Class
+
+Backtrace:
+[Story-based Levels] Script.rb:83:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
