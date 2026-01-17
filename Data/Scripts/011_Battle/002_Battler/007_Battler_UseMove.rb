@@ -403,6 +403,7 @@ class Battle::Battler
         targets = pbFindTargets(choice, move, user)
       end
     end
+    # Inteleon Scarf
     if user.item == :INTELEONSCARF && user.pokemon.isSpecies?(:INTELEON) && !user.abilityUsedThisSwitchIn? &&
        !move.callsAnotherMove? && !move.snatched &&
        user.pbHasOtherType?(move.calcType) && !GameData::Type.get(move.calcType).pseudo_type
@@ -410,6 +411,7 @@ class Battle::Battler
       user.pbChangeTypes(move.calcType)
       typeName = GameData::Type.get(move.calcType).name
       @battle.pbDisplay(_INTL("{1}'s type changed to {2}!", user.pbThis, typeName))
+      user.markAbilityUsedThisSwitchIn if Settings::MECHANICS_GENERATION >= 9
       @battle.pbHideAbilitySplash(user)
       if move.function_code == "CurseTargetOrLowerUserSpd1RaiseUserAtkDef1" && targets.length == 0
         choice[3] = -1

@@ -1,899 +1,899 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[STICKER01]
-Name = Sticker 01
-NamePlural = Sticker 01s
+[TM01]
+Name = TM01
+NamePlural = TM01s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = WORKUP
 Description = The user is roused, and its Attack and Sp. Atk stats increase.
 #-------------------------------
-[STICKER02]
-Name = Sticker 02
-NamePlural = Sticker 02s
+[TM02]
+Name = TM02
+NamePlural = TM02s
 Pocket = Machines
 Price = 15000
 FieldUse = TM
 Move = BREAKINGSWIPE
 Description = The user swings its tough tail wildly and attacks all foes. This also lowers their Attack stats.
 #-------------------------------
-[STICKER03]
-Name = Sticker 03
-NamePlural = Sticker 03s
+[TM03]
+Name = TM03
+NamePlural = TM03s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = WILLOWISP
 Description = The user shoots a sinister flame at the target to inflict a burn.
 #-------------------------------
-[STICKER04]
-Name = Sticker 04
-NamePlural = Sticker 04s
+[TM04]
+Name = TM04
+NamePlural = TM04s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = CALMMIND
 Description = The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
 #-------------------------------
-[STICKER05]
-Name = Sticker 05
-NamePlural = Sticker 05s
+[TM05]
+Name = TM05
+NamePlural = TM05s
 Pocket = Machines
 Price = 5000
 FieldUse = TM
 Move = FLIPTURN
 Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[STICKER06]
-Name = Sticker 06
-NamePlural = Sticker 06s
+[TM06]
+Name = TM06
+NamePlural = TM06s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = PLAYROUGH
 Description = The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
 #-------------------------------
-[STICKER07]
-Name = Sticker 07
-NamePlural = Sticker 07s
+[TM07]
+Name = TM07
+NamePlural = TM07s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SNOWSCAPE
 Description = Summons a five-turn snowstorm that boosts the Defense of Ice-type Pokémon.
 #-------------------------------
-[STICKER08]
-Name = Sticker 08
-NamePlural = Sticker 08s
+[TM08]
+Name = TM08
+NamePlural = TM08s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = BULKUP
 Description = The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.
 #-------------------------------
-[STICKER09]
-Name = Sticker 09
-NamePlural = Sticker 09s
+[TM09]
+Name = TM09
+NamePlural = TM09s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = REFLECT
 Description = A wondrous wall of light is put up to reduce damage from physical attacks for five turns.
 #-------------------------------
-[STICKER10]
-Name = Sticker 10
-NamePlural = Sticker 10s
+[TM10]
+Name = TM10
+NamePlural = TM10s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = ALLYSWITCH
 Description = The user switches places with an ally. This move's chance of failing rises if it is used in succession.
 #-------------------------------
-[STICKER11]
-Name = Sticker 11
-NamePlural = Sticker 11s
+[TM11]
+Name = TM11
+NamePlural = TM11s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SUNNYDAY
 Description = The user intensifies the sun for five turns, powering up Fire-type moves.
 #-------------------------------
-[STICKER12]
-Name = Sticker 12
-NamePlural = Sticker 12s
+[TM12]
+Name = TM12
+NamePlural = TM12s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = AGILITY
 Description = The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.
 #-------------------------------
-[STICKER13]
-Name = Sticker 13
-NamePlural = Sticker 13s
+[TM13]
+Name = TM13
+NamePlural = TM13s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = ICEBEAM
 Description = The target is struck with an icy-cold beam of energy. This may also leave the target frozen.
 #-------------------------------
-[STICKER14]
-Name = Sticker 14
-NamePlural = Sticker 14s
+[TM14]
+Name = TM14
+NamePlural = TM14s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = BLIZZARD
 Description = A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.
 #-------------------------------
-[STICKER15]
-Name = Sticker 15
-NamePlural = Sticker 15s
+[TM15]
+Name = TM15
+NamePlural = TM15s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = GIGADRAIN
 Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
 #-------------------------------
-[STICKER16]
-Name = Sticker 16
-NamePlural = Sticker 16s
+[TM16]
+Name = TM16
+NamePlural = TM16s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = LIGHTSCREEN
 Description = A wondrous wall of light is put up to reduce damage from special attacks for five turns.
 #-------------------------------
-[STICKER17]
-Name = Sticker 17
-NamePlural = Sticker 17s
+[TM17]
+Name = TM17
+NamePlural = TM17s
 Pocket = Machines
 Price = 50000
 FieldUse = TM
 Move = PROTECT
 Description = Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
 #-------------------------------
-[STICKER18]
-Name = Sticker 18
-NamePlural = Sticker 18s
+[TM18]
+Name = TM18
+NamePlural = TM18s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = RAINDANCE
 Description = The user summons a heavy rain that falls for five turns, powering up Water-type moves.
 #-------------------------------
-[STICKER19]
-Name = Sticker 19
-NamePlural = Sticker 19s
+[TM19]
+Name = TM19
+NamePlural = TM19s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = HONECLAWS
 Description = The user sharpens its claws to boost its Attack stat and accuracy.
 #-------------------------------
-[STICKER20]
-Name = Sticker 20
-NamePlural = Sticker 20s
+[TM20]
+Name = TM20
+NamePlural = TM20s
 Pocket = Machines
 Price = 7000
 FieldUse = TM
 Move = TRAILBLAZE
 Description = The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.
 #-------------------------------
-[STICKER21]
-Name = Sticker 21
-NamePlural = Sticker 21s
+[TM21]
+Name = TM21
+NamePlural = TM21s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = TAILWIND
 Description = The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
 #-------------------------------
-[STICKER22]
-Name = Sticker 22
-NamePlural = Sticker 22s
+[TM22]
+Name = TM22
+NamePlural = TM22s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SOLARBEAM
 Description = A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
 #-------------------------------
-[STICKER23]
-Name = Sticker 23
-NamePlural = Sticker 23s
+[TM23]
+Name = TM23
+NamePlural = TM23s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SOLARBLADE
 Description = The user gathers light energy into a blade, attacking the target on the next turn.
 #-------------------------------
-[STICKER24]
-Name = Sticker 24
-NamePlural = Sticker 24s
+[TM24]
+Name = TM24
+NamePlural = TM24s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = THUNDERBOLT
 Description = A strong electric blast crashes down on the target. This may also leave the target with paralysis.
 #-------------------------------
-[STICKER25]
-Name = Sticker 25
-NamePlural = Sticker 25s
+[TM25]
+Name = TM25
+NamePlural = TM25s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = THUNDER
 Description = A wicked thunderbolt is dropped on the target to inflict damage. This may also paralyze the target.
 #-------------------------------
-[STICKER26]
-Name = Sticker 26
-NamePlural = Sticker 26s
+[TM26]
+Name = TM26
+NamePlural = TM26s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = EARTHQUAKE
 Description = The user sets off an earthquake that strikes every Pokémon around it.
 #-------------------------------
-[STICKER27]
-Name = Sticker 27
-NamePlural = Sticker 27s
+[TM27]
+Name = TM27
+NamePlural = TM27s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = ICYWIND
 Description = The user attacks with a gust of chilled air. It also lowers the targets' Speed stat.
 #-------------------------------
-[STICKER28]
-Name = Sticker 28
-NamePlural = Sticker 28s
+[TM28]
+Name = TM28
+NamePlural = TM28s
 Pocket = Machines
 Price = 50000
 FieldUse = TM
 Move = BULLDOZE
 Description = The user strikes everything around it by stomping down on the ground. This lowers the Speed of those hit.
 #-------------------------------
-[STICKER29]
-Name = Sticker 29
-NamePlural = Sticker 29s
+[TM29]
+Name = TM29
+NamePlural = TM29s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = PSYCHIC
 Description = The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.
 #-------------------------------
-[STICKER30]
-Name = Sticker 30
-NamePlural = Sticker 30s
+[TM30]
+Name = TM30
+NamePlural = TM30s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SHADOWBALL
 Description = The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.
 #-------------------------------
-[STICKER31]
-Name = Sticker 31
-NamePlural = Sticker 31s
+[TM31]
+Name = TM31
+NamePlural = TM31s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = BRICKBREAK
 Description = The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.
 #-------------------------------
-[STICKER32]
-Name = Sticker 32
-NamePlural = Sticker 32s
+[TM32]
+Name = TM32
+NamePlural = TM32s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SANDSTORM
 Description = A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types.
 #-------------------------------
-[STICKER33]
-Name = Sticker 33
-NamePlural = Sticker 33s
+[TM33]
+Name = TM33
+NamePlural = TM33s
 Pocket = Machines
 Price = 50000
 FieldUse = TM
 Move = SPIRITSLAM
 Description = The user slams an avatar of itself into the target. Deals more damage with a higher Sp. Defense stat.
 #-------------------------------
-[STICKER34]
-Name = Sticker 34
-NamePlural = Sticker 34s
+[TM34]
+Name = TM34
+NamePlural = TM34s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SLUDGEWAVE
 Description = It swamps the area around the user with a giant sludge wave. It may also poison those hit.
 #-------------------------------
-[STICKER35]
-Name = Sticker 35
-NamePlural = Sticker 35s
+[TM35]
+Name = TM35
+NamePlural = TM35s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FLAMETHROWER
 Description = The target is scorched with an intense blast of fire. This may also leave the target with a burn.
 #-------------------------------
-[STICKER36]
-Name = Sticker 36
-NamePlural = Sticker 36s
+[TM36]
+Name = TM36
+NamePlural = TM36s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SLUDGEBOMB
 Description = Unsanitary sludge is hurled at the target. This may also poison the target.
 #-------------------------------
-[STICKER37]
-Name = Sticker 37
-NamePlural = Sticker 37s
+[TM37]
+Name = TM37
+NamePlural = TM37s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = HELPINGHAND
 Description = The user assists an ally by boosting the power of its attack.
 #-------------------------------
-[STICKER38]
-Name = Sticker 38
-NamePlural = Sticker 38s
+[TM38]
+Name = TM38
+NamePlural = TM38s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FIREBLAST
 Description = The target is attacked with an intense blast of all-consuming fire. This may also burn the target.
 #-------------------------------
-[STICKER39]
-Name = Sticker 39
-NamePlural = Sticker 39s
+[TM39]
+Name = TM39
+NamePlural = TM39s
 Pocket = Machines
 Price = 4000
 FieldUse = TM
 Move = ROCKTOMB
 Description = Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
 #-------------------------------
-[STICKER40]
-Name = Sticker 40
-NamePlural = Sticker 40s
+[TM40]
+Name = TM40
+NamePlural = TM40s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = FAKEOUT
 Description = An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.
 #-------------------------------
-[STICKER41]
-Name = Sticker 41
-NamePlural = Sticker 41s
+[TM41]
+Name = TM41
+NamePlural = TM41s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = BURNANDTURN
 Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[STICKER42]
-Name = Sticker 42
-NamePlural = Sticker 42s
+[TM42]
+Name = TM42
+NamePlural = TM42s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = TRIPLEKICK
 Description = A consecutive three-kick attack that becomes more powerful with each successive hit.
 #-------------------------------
-[STICKER43]
-Name = Sticker 43
-NamePlural = Sticker 43s
+[TM43]
+Name = TM43
+NamePlural = TM43s
 Pocket = Machines
 Price = 6000
 FieldUse = TM
 Move = FLAMECHARGE
 Description = The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.
 #-------------------------------
-[STICKER44]
-Name = Sticker 44
-NamePlural = Sticker 44s
+[TM44]
+Name = TM44
+NamePlural = TM44s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = REST
 Description = The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.
 #-------------------------------
-[STICKER45]
-Name = Sticker 45
-NamePlural = Sticker 45s
+[TM45]
+Name = TM45
+NamePlural = TM45s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = POUNCE
 Description = The user attacks by pouncing on the target. This also lowers the target’s Speed stat.
 #-------------------------------
-[STICKER46]
-Name = Sticker 46
-NamePlural = Sticker 46s
+[TM46]
+Name = TM46
+NamePlural = TM46s
 Pocket = Machines
 Price = 20000
 FieldUse = TM
 Move = WEATHERBALL
 Description = An attack move that varies in power and type depending on the weather.
 #-------------------------------
-[STICKER47]
-Name = Sticker 47
-NamePlural = Sticker 47s
+[TM47]
+Name = TM47
+NamePlural = TM47s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = COVET
 Description = The user endearingly approaches the target, then steals the target's held item.
 #-------------------------------
-[STICKER48]
-Name = Sticker 48
-NamePlural = Sticker 48s
+[TM48]
+Name = TM48
+NamePlural = TM48s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = PAINSPLIT
 Description = The user adds its HP to the target's HP, then equally shares the combined HP with the target.
 #-------------------------------
-[STICKER49]
-Name = Sticker 49
-NamePlural = Sticker 49s
+[TM49]
+Name = TM49
+NamePlural = TM49s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = HYDROHOP
 Description = The user hops above the water a few times. Building up more power, it raises the user's Speed stat.
 #-------------------------------
-[STICKER50]
-Name = Sticker 50
-NamePlural = Sticker 50s
+[TM50]
+Name = TM50
+NamePlural = TM50s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = OVERHEAT
 Description = The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.
 #-------------------------------
-[STICKER51]
-Name = Sticker 51
-NamePlural = Sticker 51s
+[TM51]
+Name = TM51
+NamePlural = TM51s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SKITTERSMACK
 Description = The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
 #-------------------------------
-[STICKER52]
-Name = Sticker 52
-NamePlural = Sticker 52s
+[TM52]
+Name = TM52
+NamePlural = TM52s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FOCUSBLAST
 Description = The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.
 #-------------------------------
-[STICKER53]
-Name = Sticker 53
-NamePlural = Sticker 53s
+[TM53]
+Name = TM53
+NamePlural = TM53s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = DARKPULSE
 Description = The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
 #-------------------------------
-[STICKER54]
-Name = Sticker 54
-NamePlural = Sticker 54s
+[TM54]
+Name = TM54
+NamePlural = TM54s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FALSESWIPE
 Description = A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
 #-------------------------------
-[STICKER55]
-Name = Sticker 55
-NamePlural = Sticker 55s
+[TM55]
+Name = TM55
+NamePlural = TM55s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = WATERPULSE
 Description = The user attacks the target with a pulsing blast of water. It may also confuse the target.
 #-------------------------------
-[STICKER56]
-Name = Sticker 56
-NamePlural = Sticker 56s
+[TM56]
+Name = TM56
+NamePlural = TM56s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = EARTHPOWER
 Description = The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.
 #-------------------------------
-[STICKER57]
-Name = Sticker 57
-NamePlural = Sticker 57s
+[TM57]
+Name = TM57
+NamePlural = TM57s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FOLLOWME
 Description = The user draws attention to itself, making all targets take aim only at the user.
 #-------------------------------
-[STICKER58]
-Name = Sticker 58
-NamePlural = Sticker 58s
+[TM58]
+Name = TM58
+NamePlural = TM58s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = CHARGEBEAM
 Description = The target is attacked with a shock wave generated by the user's gaping mouth.
 #-------------------------------
-[STICKER59]
-Name = Sticker 59
-NamePlural = Sticker 59s
+[TM59]
+Name = TM59
+NamePlural = TM59s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = ZINGZAP
 Description = A strong electric blast crashes down on the target. This may also make the target flinch.
 #-------------------------------
-[STICKER60]
-Name = Sticker 60
-NamePlural = Sticker 60s
+[TM60]
+Name = TM60
+NamePlural = TM60s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = UTURN
 Description = The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.
 #-------------------------------
-[STICKER61]
-Name = Sticker 61
-NamePlural = Sticker 61s
+[TM61]
+Name = TM61
+NamePlural = TM61s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SHADOWCLAW
 Description = The user slashes with a sharp claw made from shadows. Critical hits land more easily.
 #-------------------------------
-[STICKER62]
-Name = Sticker 62
-NamePlural = Sticker 62s
+[TM62]
+Name = TM62
+NamePlural = TM62s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = COACHING
 Description = The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.
 #-------------------------------
-[STICKER63]
-Name = Sticker 63
-NamePlural = Sticker 63s
+[TM63]
+Name = TM63
+NamePlural = TM63s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = NASTYPLOT
 Description = The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.
 #-------------------------------
-[STICKER64]
-Name = Sticker 64
-NamePlural = Sticker 64s
+[TM64]
+Name = TM64
+NamePlural = TM64s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = AVALANCHE
 Description = An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
 #-------------------------------
-[STICKER65]
-Name = Sticker 65
-NamePlural = Sticker 65s
+[TM65]
+Name = TM65
+NamePlural = TM65s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = ENERGYBALL
 Description = The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.
 #-------------------------------
-[STICKER66]
-Name = Sticker 66
-NamePlural = Sticker 66s
+[TM66]
+Name = TM66
+NamePlural = TM66s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = DRAGONPULSE
 Description = The target is attacked with a shock wave generated by the user's gaping mouth.
 #-------------------------------
-[STICKER67]
-Name = Sticker 67
-NamePlural = Sticker 67s
+[TM67]
+Name = TM67
+NamePlural = TM67s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = ROOST
 Description = The user lands and rests its body. It restores the user's HP by up to half of its max HP.
 #-------------------------------
-[STICKER68]
-Name = Sticker 68
-NamePlural = Sticker 68s
+[TM68]
+Name = TM68
+NamePlural = TM68s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = FLORALSWITCH
 Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[STICKER69]
-Name = Sticker 69
-NamePlural = Sticker 69s
+[TM69]
+Name = TM69
+NamePlural = TM69s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SIGNALBEAM
 Description = The user attacks with a sinister beam of light. It may also confuse the target.
 #-------------------------------
-[STICKER70]
-Name = Sticker 70
-NamePlural = Sticker 70s
+[TM70]
+Name = TM70
+NamePlural = TM70s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = TRICKROOM
 Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
 #-------------------------------
-[STICKER71]
-Name = Sticker 71
-NamePlural = Sticker 71s
+[TM71]
+Name = TM71
+NamePlural = TM71s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = STONEEDGE
 Description = The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.
 #-------------------------------
-[STICKER72]
-Name = Sticker 72
-NamePlural = Sticker 72s
+[TM72]
+Name = TM72
+NamePlural = TM72s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = VOLTSWITCH
 Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[STICKER73]
-Name = Sticker 73
-NamePlural = Sticker 73s
+[TM73]
+Name = TM73
+NamePlural = TM73s
 Pocket = Machines
 Price = 8000
 FieldUse = TM
 Move = THUNDERWAVE
 Description = A weak electric charge is launched at the target. It causes paralysis if it hits.
 #-------------------------------
-[STICKER74]
-Name = Sticker 74
-NamePlural = Sticker 74s
+[TM74]
+Name = TM74
+NamePlural = TM74s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = IRONHEAD
 Description = The foe slams the target with its steel-hard head. It may also make the target flinch.
 #-------------------------------
-[STICKER75]
-Name = Sticker 75
-NamePlural = Sticker 75s
+[TM75]
+Name = TM75
+NamePlural = TM75s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SWORDSDANCE
 Description = A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat.
 #-------------------------------
-[STICKER76]
-Name = Sticker 76
-NamePlural = Sticker 76s
+[TM76]
+Name = TM76
+NamePlural = TM76s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = LIQUIDATION
 Description = The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat.
 #-------------------------------
-[STICKER77]
-Name = Sticker 77
-NamePlural = Sticker 77s
+[TM77]
+Name = TM77
+NamePlural = TM77s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = AIRSLASH
 Description = The user attacks with a blade of air that slices even the sky. It may also make the target flinch.
 #-------------------------------
-[STICKER78]
-Name = Sticker 78
-NamePlural = Sticker 78
+[TM78]
+Name = TM78
+NamePlural = TM78
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = DIG
 Description = The user burrows, then attacks on the second turn. It can also be used to exit dungeons.
 #-------------------------------
-[STICKER79]
-Name = Sticker 79
-NamePlural = Sticker 79s
+[TM79]
+Name = TM79
+NamePlural = TM79s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = DAZZLINGGLEAM
 Description = The user damages opposing Pokémon by emitting a powerful flash.
 #-------------------------------
-[STICKER80]
-Name = Sticker 80
-NamePlural = Sticker 80s
+[TM80]
+Name = TM80
+NamePlural = TM80s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = ROCKSLIDE
 Description = Large boulders are hurled at the opposing team to inflict damage. They may also make the targets flinch.
 #-------------------------------
-[STICKER81]
-Name = Sticker 81
-NamePlural = Sticker 81s
+[TM81]
+Name = TM81
+NamePlural = TM81s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = XSCISSOR
 Description = The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.
 #-------------------------------
-[STICKER82]
-Name = Sticker 82
-NamePlural = Sticker 82s
+[TM82]
+Name = TM82
+NamePlural = TM82s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = MUDSHOT
 Description = The user attacks by hurling a blob of mud at the target. It also reduces the target's Speed.
 #-------------------------------
-[STICKER83]
-Name = Sticker 83
-NamePlural = Sticker 83s
+[TM83]
+Name = TM83
+NamePlural = TM83s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = HEATWAVE
 Description = The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.
 #-------------------------------
-[STICKER84]
-Name = Sticker 84
-NamePlural = Sticker 84s
+[TM84]
+Name = TM84
+NamePlural = TM84s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = POISONJAB
 Description = The target is stabbed with a tentacle, arm, or the like steeped in poison. May also poison the target.
 #-------------------------------
-[STICKER85]
-Name = Sticker 85
-NamePlural = Sticker 85s
+[TM85]
+Name = TM85
+NamePlural = TM85s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = TELEPORT
 Description = The user switches place with a party Pokémon. Also warps to the last Pokémon Center visited.
 #-------------------------------
-[STICKER86]
-Name = Sticker 86
-NamePlural = Sticker 86s
+[TM86]
+Name = TM86
+NamePlural = TM86s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = POLLENPUFF
 Description = Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.
 #-------------------------------
-[STICKER87]
-Name = Sticker 87
-NamePlural = Sticker 87s
+[TM87]
+Name = TM87
+NamePlural = TM87s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = TAUNT
 Description = The target is taunted into a rage that allows it to use only attack moves for three turns.
 #-------------------------------
-[STICKER88]
-Name = Sticker 88
-NamePlural = Sticker 88s
+[TM88]
+Name = TM88
+NamePlural = TM88s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = BONECHILLER
 Description = The user shoots the opponent with chilly winds that inflict frostbite.
 #-------------------------------
-[STICKER89]
-Name = Sticker 89
-NamePlural = Sticker 89s
+[TM89]
+Name = TM89
+NamePlural = TM89s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = BODYPRESS
 Description = The user slams its body into the target. Deals more damage with a higher Defense stat.
 #-------------------------------
-[STICKER90]
-Name = Sticker 90
-NamePlural = Sticker 90s
+[TM90]
+Name = TM90
+NamePlural = TM90s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = PSYCHOCUT
 Description = The user tears at the target with blades formed by psychic power. Critical hits land more easily.
 #-------------------------------
-[STICKER91]
-Name = Sticker 91
-NamePlural = Sticker 91s
+[TM91]
+Name = TM91
+NamePlural = TM91s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = RETURN
 Description = A full-power attack that grows more powerful the more the user likes its Trainer.
 #-------------------------------
-[STICKER92]
-Name = Sticker 92
-NamePlural = Sticker 92s
+[TM92]
+Name = TM92
+NamePlural = TM92s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = HYPERVOICE
 Description = The user lets loose a horribly echoing shout with the power to inflict damage.
 #-------------------------------
-[STICKER93]
-Name = Sticker 93
-NamePlural = Sticker 93s
+[TM93]
+Name = TM93
+NamePlural = TM93s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SURF
 Description = Attacks everything by swamping the surroundings with a giant wave. This can also be used to cross water.
 #-------------------------------
-[STICKER94]
-Name = Sticker 94
-NamePlural = Sticker 94s
+[TM94]
+Name = TM94
+NamePlural = TM94s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = STRENGTH
 Description = The target is slugged with a punch thrown at maximum power, raising the user's Attack stat.
 #-------------------------------
-[STICKER95]
-Name = Sticker 95
-NamePlural = Sticker 95s
+[TM95]
+Name = TM95
+NamePlural = TM95s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SKITTERSMACK
 Description = The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
 #-------------------------------
-[STICKER96]
-Name = Sticker 96
-NamePlural = Sticker 96s
+[TM96]
+Name = TM96
+NamePlural = TM96s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = THIEF
 Description = The user attacks and steals the foe's held item simultaneously.
 #-------------------------------
-[STICKER97]
-Name = Sticker 97
-NamePlural = Sticker 97s
+[TM97]
+Name = TM97
+NamePlural = TM97s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = HEADBUTT
 Description = The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.
 #-------------------------------
-[STICKER98]
-Name = Sticker 98
-NamePlural = Sticker 98s
+[TM98]
+Name = TM98
+NamePlural = TM98s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FACADE
 Description = If the user is poisoned, paralyzed, or burned, this attack will hit with double the power.
 #-------------------------------
-[STICKER99]
-Name = Sticker 99
-NamePlural = Sticker 99s
+[TM99]
+Name = TM99
+NamePlural = TM99s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = POWERUPPUNCH
 Description = Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat.
 #-------------------------------
-[STICKER100]
-Name = Sticker 100
-NamePlural = Sticker 100s
+[TM100]
+Name = TM100
+NamePlural = TM100s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
