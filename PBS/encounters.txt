@@ -2,12 +2,10 @@
 #-------------------------------
 [006] # Catara City
 Land,15
-    30,WURMPLE,4,6
+    40,WURMPLE,4,6
     25,MANKEY,4,6
+    20,AZURILL,4,6
     15,GULPIN,4,6
-    10,PANSAGE,4,6
-    10,PANSEAR,4,6
-    10,PANPOUR,4,6
 #-------------------------------
 [007] # Granulo Graveyard
 Land,15
